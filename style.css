@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  width: 200px;
+  width: 240px;
 }
 
 main,
@@ -40,10 +40,14 @@ p {
   font-weight: 700;
   font-size: var(--font-size-p);
   text-align: center;
+  padding: 0 10px;
+  color: var(--dark-blue);
 }
 
 p + p {
   font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--grayish-blue);
 }
 
 @media screen and (max-width: 375px) {
